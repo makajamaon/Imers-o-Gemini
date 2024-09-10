@@ -12,11 +12,22 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Chess-HD-Wallpaper-Free-download.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 /* Estiliza os títulos h1 */
 h1 {
-    font-size: 2.5rem; /* Tamanho da fonte */
+    font-size: 3.0rem; /* Tamanho da fonte */
+    color: #496a9b; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+}
+
+/* Estiliza os títulos h2 */  /*Não utilizado no momento */
+h2 {
+    font-size: 2.0rem; /* Tamanho da fonte */
     color: #222831; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
@@ -80,8 +91,8 @@ section button:hover {
 
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
-    font-size: 1.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
+    font-size: 2.0rem; /* Tamanho da fonte */
+    color: #496a9b; /* Cor do texto */
 }
 
 /* Estiliza os links dentro dos itens de resultado */
@@ -98,6 +109,12 @@ section button:hover {
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
     color: #45474B; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+.descricao-ttl {
+    color: #496a9b; /* Cor do texto */
+    font-size: 1.5rem; /* Tamanho da fonte */
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
