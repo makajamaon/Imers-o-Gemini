@@ -8,26 +8,23 @@
 </head>
 <body>
     <header>
-        <h1>Aberturas e Defesas do Xadrez</h1>
+        <h1>Aberturas do Xadrez</h1>
     </header>
     <main>
         <section>
-        <input type="text" placeholder="Digite o nome da abertura">
-        <button>Pesquisar</button>
+        <input type="text" placeholder="Digite o nome da abertura" id="campoDePesquisa">
+        <button onclick="pesquisar()">Pesquisar</button>
     </section>
-    <section>
-            <ul id="aberturas"><h2>Aberturas</h2>
-                <li><a href="https://www.chessgames.com/perl/chessgame?gid=1820409" target="_blank">Ruy López</a></li>
-            </ul>
-            
-            <ul id="defesas"><h2>Defesas</h2>
-                <li><a href="https://www.chessgames.com/perl/chessgame?gid=1070174" target="_blank">Siciliana</a></li>
-            </ul>
+    <section class="resultados-pesquisa"
+        id="resultados-pesquisa">
+                    
     </section>
     </main>
     <footer>
-        <p>2024 - Xadrez - Todos os direitos reservados</p>
+        <p>2024 - Xadrez - Todos os direitos reservados a Pedropabcp</p>
         <p>Contato: xadrez@ppabcp.com</p>
     </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
